@@ -1,45 +1,49 @@
 <!DOCTYPE html>
 <html lang="th">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home - Graphic Designer</title>
+
+    <title>หน้าแรก | Portfolio</title>
+
     <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;800&family=Prompt:wght@300;400;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
+
 <body>
 
-    <div class="portfolio-card">
-        <!-- Navigation Header -->
-        <header class="navbar">
-            <div class="logo">Graphic Designer</div>
-            <nav class="nav-links">
-                <a href="index.html" class="active">Home</a>
-                <a href="about.html">About</a>
-                <a href="works.html">Works</a>
-                <a href="contact.html">Contact</a>
-            </nav>
-        </header>
+<nav>
+    <a href="index.html">🏠 หน้าแรก</a>
+    <a href="about.html">👩🏻 เกี่ยวกับฉัน</a>
+    <a href="works.html">🖼️ ผลงาน</a>
+    <a href="contact.html">📞 ติดต่อ</a>
+</nav>
 
-        <!-- Hero Content -->
-        <main class="page-content hero-content">
-            <div class="hero-text">
-                <span class="greeting">Hi i'm</span>
-                <h1>Graphic<br><span>Designer</span></h1>
-                <a href="about.html" class="btn-more">View More</a>
-            </div>
 
-            <div class="hero-image-container">
-                <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=600&auto=format&fit=crop" alt="Profile Image" class="profile-img">
-            </div>
-        </main>
-    </div>
+<section class="hero">
 
-    <!-- Social Link -->
-    <div class="social-footer">
-        <a href="https://instagram.com" target="_blank"><i class="fa-brands fa-instagram"></i> vijaiiii</a>
-    </div>
+    <h1> ยินดีต้อนรับสู่แฟ้มสะสมผลงาน</h1>
 
-</body>
+    <div class="portfolio1">
+    <img src="portfolio1.jpg" alt="ผลงาน">
+    </div>   
+    
+    <h2>สวัสดีค่ะ</h2>
+
+    <p>
+        ดิฉัน นางสาวฐิติรัชต์ ปีศิริเศรษฐกูลค่ะ
+    <p>
+        นี่คือ Portfolio ของดิฉันค่ะ
+    </p>
+
+    <p>
+        รวบรวมผลงาน ความสามารถ และเรื่องราวต่าง ๆ
+    </p>
+
+    <a class="btn" href="about.html">
+        👩🏻 ไปรู้จักฉันกันค่ะกันค่ะ
+    </a>
+</section>
+
+<body class="home">
 </html>
