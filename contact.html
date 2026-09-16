@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - Graphic Designer</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;800&family=Prompt:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+    <div class="portfolio-card">
+        <header class="navbar">
+            <div class="logo">Graphic Designer</div>
+            <nav class="nav-links">
+                <a href="index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="works.html">Works</a>
+                <a href="contact.html" class="active">Contact</a>
+            </nav>
+        </header>
+
+        <main class="page-content">
+            <h2 class="section-title">ช่องทางการ <span>ติดต่อ</span></h2>
+            <div class="contact-container">
+                <div class="contact-info">
+                    <div class="info-item">
+                        <i class="fa-solid fa-envelope"></i>
+                        <div>
+                            <h4>Email</h4>
+                            <p>contact@yourdomain.com</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <i class="fa-solid fa-phone"></i>
+                        <div>
+                            <h4>Phone</h4>
+                            <p>+66 81 234 5678</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <i class="fa-solid fa-location-dot"></i>
+                        <div>
+                            <h4>Location</h4>
+                            <p>Bangkok, Thailand</p>
+                        </div>
+                    </div>
+                </div>
+
+                <form class="contact-form" onsubmit="event.preventDefault(); alert('ส่งข้อความเรียบร้อยแล้ว!');">
+                    <input type="text" placeholder="ชื่อของคุณ" required>
+                    <input type="email" placeholder="อีเมลของคุณ" required>
+                    <textarea rows="4" placeholder="ข้อความที่ต้องการส่ง..." required></textarea>
+                    <button type="submit" class="btn-more">ส่งข้อความ</button>
+                </form>
+            </div>
+        </main>
+    </div>
+
+    <div class="social-footer">
+        <a href="https://instagram.com" target="_blank"><i class="fa-brands fa-instagram"></i> vijaiiii</a>
+    </div>
+
+</body>
+</html>
